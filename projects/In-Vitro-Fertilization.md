@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/In-Vitro-Fertilization/ivf.jpg
+image: img/ivf.jpg
 title: "In-Vitro Fertilization"
 date: 2021
 published: true
