@@ -9,11 +9,13 @@ labels:
   - JavaScript
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/javascript.jpg">
 
 ## JavaScript
 
 After 1 week of learning JavaScript I can confidently say that it’s my favorite programming language. Learning JavaScript has been extremely smooth so far as I had a strong foundation with the Java language. JavaScript has taught me the importance of efficient code and how to implement strategies that will allow me to become an effective programmer. I noticed there are many aspects of JavaScript that are more forgiving than other languages such as Java. Some attributes include not having to declare data types for variables, the availability of heterogeneous collections, and functions being first class. The simplicity of this language allows problem solving to be more simple and concise, which has motivated me to continue learning this language and to enhance my skills on becoming an efficient developer.
+
+<img width="200px" class="rounded float-start pe-4" src="../img/swengineering.png">
 
 ## Athletic Software Engineering
 
