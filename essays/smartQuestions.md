@@ -9,8 +9,6 @@ labels:
   - Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
-
 ## Roadblocks in Software Engineering
 
 In the field of Software Engineering you will constantly be collaborating with other people, teams, and companies from around the globe. Designing programs and coding effectively requires a tremendous amount of knowledge and years of studying and many people will rely on you and your software to work. However, with the addition of a vast selection of programming languages, IDE’s, and operating systems (just to name a few), you are bound to run into an issue that requires an experienced user’s input. Trying to solve these issues on your own can be extremely tedious and you’ll often hit dead ends when trying to brute force your way through. This can halt entire business operations and software development which can be detrimental, especially if you’re in a position where other people are relying on your program to work. 
