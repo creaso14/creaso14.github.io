@@ -9,6 +9,8 @@ labels:
   - Software Engineering
 ---
 
+<img width="200px" class="rounded float-start pe-4" src="../img/brain.jpg">
+
 ## Roadblocks in Software Engineering
 
 In the field of Software Engineering you will constantly be collaborating with other people, teams, and companies from around the globe. Designing programs and coding effectively requires a tremendous amount of knowledge and years of studying and many people will rely on you and your software to work. However, with the addition of a vast selection of programming languages, IDE’s, and operating systems (just to name a few), you are bound to run into an issue that requires an experienced user’s input. Trying to solve these issues on your own can be extremely tedious and you’ll often hit dead ends when trying to brute force your way through. This can halt entire business operations and software development which can be detrimental, especially if you’re in a position where other people are relying on your program to work. 
@@ -68,6 +70,8 @@ Does anyone have any recommendations?
 ```
  
 This next [question](https://stackoverflow.com/questions/28561649/google-cloud-sql-hikari-cp-communications-link-failure) would be considered a smart question. Starting with the subject header: ‘Google Cloud SQL + Hikari CP + Communications link failure‘. Raymond addresses the subject header as one of the most important aspects of asking a question. This is what the public sees first about your question. It's important to use the ~50 characters of space you have wisely in order to portray your issue and entice people to help you. Raymond describes a useful convention for subject headers which is “object - deviation”. In our example, the “object” refers to ‘Google Cloud SQL + Hikari CP + Communications’ and the “deviation” refers to ‘link failure’. This is a good convention as it allows potential helpers to quickly gather information about what the general issue is and it’s straight to the point. Under this post, the user then goes deeper into what his issue is and provides links to his server settings. This is extremely helpful to hackers as it gives them the ability to reproduce the problem and allows them to know more about the issue at hand and the specific software/hardware components associated with it. The user then states that he’s read the FAQs but is still stumped. This is a key component when asking questions because it shows that you are spending the extra effort into trying to learn and shows that you actually care about the topic. People are more likely to help someone that actually wants to learn and displays their desire/efforts to them. The rest of this post is mainly source code but at the very end we see a simple “Thanks” which goes a long way. You don’t have to be a kiss-up when asking questions but expressing some form of gratitude is essential if you want to receive the same attitude towards you. Moreover, the answer to this post seemed very formal, gave a detailed and organized explanation, and even recommended that the user post the logs again if the errors occur once more.
+
+<img width="200px" class="rounded float-start pe-4" src="../img/cri.jpg">
 
 ## Conclusion
 
