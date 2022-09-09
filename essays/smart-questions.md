@@ -13,87 +13,66 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
+## Roadblocks in Software Engineering
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+In the field of Software Engineering you will constantly be collaborating with other people, teams, and companies from around the globe. Designing programs and coding effectively requires a tremendous amount of knowledge and years of studying and many people will rely on you and your software to work. However, with the addition of a vast selection of programming languages, IDE’s, and operating systems (just to name a few), you are bound to run into an issue that requires an experienced user’s input. Trying to solve these issues on your own can be extremely tedious and you’ll often hit dead ends when trying to brute force your way through. This can halt entire business operations and software development which can be detrimental, especially if you’re in a position where other people are relying on your program to work. 
 
 ## What’s a smart question?
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+The use of open source has become extremely popular in the past decade and has proven to help thousands of individuals solve their specific problems. There are many communities and forums that are specifically tuned for a topic that people may have questions/issues about. These topics aren’t just about programming/software development but can extend to virtually anything, both trivial and non-trivial. Just to name a few, these topics can range from cars, computers, and cooking. The reason for all of these different topics is to provide a way, specifically for ‘newbies’, to learn from more experienced users/professionals within that respective field. However, you’ll often find ‘losers’ on these forums that ask questions in a ‘dumb’ way. I don’t mean that these ‘dumb’ questions are trivial, but the way they’re asked is what makes them dumb. What I mean by this is that people will often spit out their questions and expect people to give them a respectful and detailed answer. These kinds of people do not appreciate the process of learning and feel entitled to get free help on their issue. People need to learn how to ask ‘smart’ questions and show interest in whatever topic they’re discussing because it will result in more efficient answers. In Eric Raymond’s How to ask questions the smart way, Eric describes hackers as users that enjoy difficult problems and thought-provoking questions. These types of people enjoy solving issues and it acts as a stimulus to them as it can often reveal problems that they might have not noticed themselves. Hackers have a reputation for being hostile or arrogant, but what most people don’t know is that this type of behavior is mainly directed at people that ask not so smart questions. Learning to ask smart questions is essential because they can give you the best chance at solving your problems in the most efficient way, both in time and logic.
 
 ```
-Q: python date of the previous month
+Please help stopping the form action
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+Check function not work !! Please help
 
-I have solved this trouble in bash with:
+  <php?
+    function Check (){
 
-echo $(date -d"3 month ago" "+%G%m%d")
+      if ($_SERVER["REQUEST_METHOD"] == "POST") 
+     {      
+    if (!is_numeric($_POST["num1"])) 
+    {
+    $Err1 = "Num1 is not numeric"; 
+    }
+  if (!is_numeric($_POST["num2"])) 
+  {
+   $Err2 = "Num2 is not numeric"; 
+  } 
+  if ( $Err1 = $Err2 = ""){
+  return true;}
+  else  return false;
+ }
 
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
+return false;
 
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
+}
+ ?>
 ```
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+This question from Stack Overflow would be considered a not so smart question by Raymond’s standards. Let's start with the subject header: ‘Please help stopping the form action’. Using the words ‘please’ or ‘help’ in the subject header will portray you as a desperate individual that demands assistance. Most users and hackers don’t want to help someone that is rudely asking for assistance and these types of subject headers will more often than not result in mediocre answers or no response at all. As we dive deeper into the question, the user then says “Check function not work !! Please help”. This goes back to being rude and expecting people to help, just because you’re posting in Stack Overflow doesn’t mean that you are entitled to an answer and can be rude, please remember that you are using a free forum site with the goal of getting assistance with an issue. The rest of the post is pretty much source code, which is the one smart thing that this person did. Posting your code with your question is essential because it allows other users to look at exactly what you are trying to solve and will allow others to replicate/trace your issues. This user luckily got an answer from an individual but again we fail to see any sort of appreciation for the answer which directly goes back to rudeness.
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
+Google Cloud SQL + Hikari CP + Communications link failure
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
 
-Like this:
 
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+I'm experiencing intermittent connectivity errors from a Spring Boot application communicating with a D1 Google CloudSQL Server with the configuration settings described here HikariCP MySQL settings
+
+I was wondering if anyone has encountered this before.
+
+I've read the FAQ posted here Hikari FAQ and I'm wondering if my default idleTimeout and maxLifeTime (30 mins) settings might be at fault; wait_timeout and interactive_timeout on the server are both set to default 28800s (8 hours).
+
+The FAQ says that these two settings should be about a minute less that the server settings, but if I'm losing connections after 30 minutes I can't quite see how upping the maxLifeTime to 7hrs 59mins is going to improve the situation.
+
+Does anyone have any recommendations?
 
 ```
  
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+This next question would be considered a smart question. Starting with the subject header: ‘Google Cloud SQL + Hikari CP + Communications link failure‘. Raymond addresses the subject header as one of the most important aspects of asking a question. This is what the public sees first about your question. It's important to use the ~50 characters of space you have wisely in order to portray your issue and entice people to help you. Raymond describes a useful convention for subject headers which is “object - deviation”. In our example, the “object” refers to ‘Google Cloud SQL + Hikari CP + Communications’ and the “deviation” refers to ‘link failure’. This is a good convention as it allows potential helpers to quickly gather information about what the general issue is and it’s straight to the point. Under this post, the user then goes deeper into what his issue is and provides links to his server settings. This is extremely helpful to hackers as it gives them the ability to reproduce the problem and allows them to know more about the issue at hand and the specific software/hardware components associated with it. The user then states that he’s read the FAQs but is still stumped. This is a key component when asking questions because it shows that you are spending the extra effort into trying to learn and shows that you actually care about the topic. People are more likely to help someone that actually wants to learn and displays their desire/efforts to them. The rest of this post is mainly source code but at the very end we see a simple “Thanks” which goes a long way. You don’t have to be a kiss-up when asking questions but expressing some form of gratitude is essential if you want to receive the same attitude towards you. Moreover, the answer to this post seemed very formal, gave a detailed and organized explanation, and even recommended that the user post the logs again if the errors occur once more.
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+It's extremely frustrating when we encounter issues within our program that seem impossible to solve. We may spend hours or even days trying to figure out what went wrong but see no progress. This frustration is what often leads to ‘dumb’ questions as we just want to be able to solve our issue and move on from the mess. When posting questions in forums we must learn to ask smart questions, we need to put our feelings and ego’s aside and appreciate the generosity and expertise that is being provided to us for free. Remember, there are no dumb questions! But, there are ‘dumb’ questions.
