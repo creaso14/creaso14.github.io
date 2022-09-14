@@ -13,9 +13,8 @@ summary: "My team worked on an application (developed with Python) that utilizes
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/manoa-ranking-beautiful-affordable-schools.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/download.jpg" class="img-thumbnail" >
 </div>
 
 In-Vitro Fertilization (IVF) is a common assisted reproductive method that follows a complex series of procedures in order to help with fertility, help to prevent genetic problems, and help to conceive a child. As a quick overview, IVF involves collecting eggs from a mothers ovaries and fertilizing them by sperm within a lab. The embryos are then transferred back to the mothers uterus and undergo careful observation until a child is developed. IVF is a very tedious and delicate process that can take around a month for one cycle. Moreover, this procedure is extremely expensive at around $15,000 and organizations around the world are trying to find ways to make IVF more accessible to mothers.
