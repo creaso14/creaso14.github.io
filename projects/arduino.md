@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ivf.jpg
+image: img/car.jpg
 title: "Arduino Micro Controller Car"
 date: 2019
 published: true
