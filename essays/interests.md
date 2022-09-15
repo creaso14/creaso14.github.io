@@ -9,7 +9,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/brain.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/interest.jpg">
 
 ## My Experience With Software Engineering
 
