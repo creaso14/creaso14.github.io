@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ivf.jpg
+image: img/leadership.jpg
 title: "Junior Leader"
 date: 2015
 published: true
