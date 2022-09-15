@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96825", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "christianreasoner", "url": "http://github.com/christianreasoner" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "https://www.linkedin.com/in/christian-reasoner-b799a520b/" }
+      { "network": "linkedin", "username": "Christian Reasoner", "url": "https://www.linkedin.com/in/christian-reasoner-b799a520b/" }
     ]
   },
   "interests": [
@@ -21,11 +21,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript"]
+      "keywords": [ "C", "Python", "Java", "Javascript"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Windows", "Git/GitHub" ]
     }
   ],
   "education": [
@@ -40,69 +40,52 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Makai Ocean Engineering",
+      "position": "Development of Submersible System Internship",
+      "website": "https://www.makai.com/",
+      "startDate": "2021-08-01",
+      "endDate": "2021-12-01",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Learn about ROS systems and creating packages/nodes",
+        "Utilize and learn KiCad in order to create PCB’s",
+        "Assist with assembly of submersible systems and learn about mechanical designs of said systems"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "UH Manoa Micro VIP",
+      "position": "In-Vitro Fertilization (IVF) Application Development Project",
+      "website": "",
+      "startDate": "2021-08-01",
+      "endDate": "2021-12-01",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Under Dr. Thomas Huang and Dr. Aaron Ohta, our team has been working on an application (developed with TKinter) that utilizes a neural network to calculate the size of an embryo based on video segmentations",
+        "Worked with a team in debugging/testing/improving the application",
+        "Implemented two new features that allow users to alter embryo data"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
+      "organization": "Kamiloiki Elementary School",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "position": "Junior Leader",
+      "startDate": "2015",
+      "endDate": "2016",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        " Organized events and activities for children",
+        "Develop plans of actions to help enforce acceptable behavior and responsibilities"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Dean's List",
+      "date": "2020-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded to students that earn a GPA of at least 3.5 for that semester."
     }
   ],
   "references": [
