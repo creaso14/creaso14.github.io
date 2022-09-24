@@ -10,7 +10,7 @@ labels:
   - ESLint
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/interest.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/eslint.png">
 
 
 Using ESLint has been surprisingly useful and has given me more assurance rather than headaches. Originally, I thought ESLint would be another annoying rule checker that would constantly give me a handful of errors and would be more of a nuisance than something beneficial. However, ESLint seamlessly integrated its way into the IntelliJ IDE and has taught me a lot about proper coding standards. Moreover, I learned that these coding standards don’t just make your code neater, they actually helped me to learn a lot about JavaScript and how to become a more efficient programmer.
