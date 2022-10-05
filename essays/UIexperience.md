@@ -17,4 +17,6 @@ Learning Bootstrap has been a slow process for me. However, I fully understand h
 Having some experience with UI design has given me insight to how complex it can really be. Being creative is probably the most important trait to have if you want to be a good UI designer. Being a good UI designer isn’t really based on how good you are with the programming languages involved but rather creating an efficient web page that displays the content in an efficient manner. Color blocked homepages is an example of a commonly used design pattern. This pattern incorporates various colors in order to separate sections of a web page and is popular due to the simplicity of it and how it is perceived by users. UI frameworks are what allow developers to quickly design patterns such as the color blocked homepage. Moreover, many issues arrive when switching between display sizes, devices, and resizing. UI frameworks provide many functionalities that are tailored to this issue and in particular, Bootstrap is considered mobile-first which basically means that its styles are built to be responsive. This is extremely important because not every user is going to be on a laptop or a 15in. screen and it's important to have a nice UI for each scenario.
 
 Example of a color blocked hompage style UI using Bootstrap:
-<img width="500px" class="rounded float-start pe-4" src="../img/UIexperience/Arsha-bootstrap-website-template.png">
+
+
+<img width="500px" class="rounded float-left pe-4" src="../img/UIexperience/Arsha-bootstrap-website-template.png">
