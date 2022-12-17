@@ -9,7 +9,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/eslint.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/SE.png">
 
 ICS 314 has taught me a lot about application frameworks and how there is much more to learn than just the various languages. This course was fast paced and went over new topics each week. I believe the overall goal of this was to give the students a quick introduction to the different aspects that go into software development and building applications and web interfaces. What stuck with me the most out of this class was the importance of coding standards and project management as they revolve around working with a team and keeping your work organized and readable.
 
