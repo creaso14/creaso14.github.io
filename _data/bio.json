@@ -1,0 +1,96 @@
+{
+  "basics": {
+    "name": "Christian Reasoner",
+    "label": "Student",
+    "picture": "https://github.com/christianreasoner.png",
+    "email": "czr@hawaii.edu",
+    "phone": "808-295-5703",
+    "website": "https://christianreasoner.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "96825", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "christianreasoner", "url": "http://github.com/christianreasoner" },
+      { "network": "linkedin", "username": "Christian Reasoner", "url": "https://www.linkedin.com/in/christian-reasoner-b799a520b/" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "IT" },
+    { "name": "Web Development" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "Python", "Java", "Javascript"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Windows", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2020",
+      "endDate": "Present",
+      "courses": []
+    }
+  ],
+  "work": [
+    {
+      "company": "Makai Ocean Engineering",
+      "position": "Development of Submersible System Internship",
+      "website": "https://www.makai.com/",
+      "startDate": "2021-08-01",
+      "endDate": "2021-12-01",
+      "summary": "",
+      "highlights": [
+        "Learn about ROS systems and creating packages/nodes",
+        "Utilize and learn KiCad in order to create PCB’s",
+        "Assist with assembly of submersible systems and learn about mechanical designs of said systems"
+      ]
+    },
+    {
+      "company": "UH Manoa Micro VIP",
+      "position": "In-Vitro Fertilization (IVF) Application Development Project",
+      "website": "",
+      "startDate": "2021-08-01",
+      "endDate": "2021-12-01",
+      "summary": "",
+      "highlights": [
+        "Under Dr. Thomas Huang and Dr. Aaron Ohta, our team has been working on an application (developed with TKinter) that utilizes a neural network to calculate the size of an embryo based on video segmentations",
+        "Worked with a team in debugging/testing/improving the application",
+        "Implemented two new features that allow users to alter embryo data"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Kamiloiki Elementary School",
+      "website": "",
+      "position": "Junior Leader",
+      "startDate": "2015",
+      "endDate": "2016",
+      "summary": "",
+      "highlights": [
+        " Organized events and activities for children",
+        "Develop plans of actions to help enforce acceptable behavior and responsibilities"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "2020-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded to students that earn a GPA of at least 3.5 for that semester."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
