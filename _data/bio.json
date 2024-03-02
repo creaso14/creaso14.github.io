@@ -2,14 +2,14 @@
   "basics": {
     "name": "Christian Reasoner",
     "label": "Student",
-    "picture": "https://github.com/christianreasoner.png",
+    "picture": "https://github.com/creaso14.png",
     "email": "czr@hawaii.edu",
     "phone": "808-295-5703",
-    "website": "https://christianreasoner.github.io",
+    "website": "https://creaso14.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
     "location": { "address": "", "postalCode": "96825", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "christianreasoner", "url": "http://github.com/christianreasoner" },
+      { "network": "github", "username": "creaso14", "url": "http://github.com/creaso14" },
       { "network": "linkedin", "username": "Christian Reasoner", "url": "https://www.linkedin.com/in/christian-reasoner-b799a520b/" }
     ]
   },
